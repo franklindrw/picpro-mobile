@@ -1,13 +1,16 @@
-<br />
+![capa](https://user-images.githubusercontent.com/81038899/160187381-d786345e-6526-447e-b16b-f239fd7ea93a.png)
+
+<br /><br />
+
 <h1 align="center"> Picpro Mobile 2022</h1>
 <h4 align="center">Aplicativo Mobile feito com base no projeto da Kenzie em parceria com a Picpay. Aplicativo híbrido com Ionic e React</h4>
 <br />
 
 <div id="statusProject" align="center">
-<img src="https://img.shields.io/github/license/franklindrw/tag-do-projeto.svg?style=for-the-badge" />
-<img src="https://img.shields.io/github/stars/franklindrw/tag-do-projeto.svg?style=for-the-badge" />
-<img src="https://img.shields.io/github/forks/franklindrw/tag-do-projeto.svg?style=for-the-badge" />
-<img src="https://img.shields.io/github/issues/franklindrw/tag-do-projeto.svg?style=for-the-badge" />
+<img src="https://img.shields.io/github/license/franklindrw/picpro-mobile.svg?style=for-the-badge" />
+<img src="https://img.shields.io/github/stars/franklindrw/picpro-mobile.svg?style=for-the-badge" />
+<img src="https://img.shields.io/github/forks/franklindrw/picpro-mobile.svg?style=for-the-badge" />
+<img src="https://img.shields.io/github/issues/franklindrw/picpro-mobile.svg?style=for-the-badge" />
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge"/>
 </div>
 
