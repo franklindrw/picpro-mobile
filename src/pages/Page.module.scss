@@ -1,3 +1,12 @@
-.logo {
-    background-color: black;
+img {
+    width: 6rem;
+    margin: 20px 0 10px 10px;
+}
+
+img:first-child {
+    border-right: 1px solid #fff;
+}
+
+div:first-child {
+    border-bottom: 1px solid #fff;
 }
