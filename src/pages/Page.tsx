@@ -1,7 +1,7 @@
 import { IonContent, IonHeader, IonPage, IonToolbar } from "@ionic/react";
 import ExploreContainer from "../components/ExploreContainer";
 import Usuario from "../components/Usuario/usuario";
-import "./page.module.scss";
+import { Logo } from "./Page.style";
 
 const picproLogo = require("../img/picpro.png");
 const kenzieLogo = require("../img/logo-kenzie.png");
@@ -12,10 +12,10 @@ const Page: React.FC = () => {
             <IonContent color="primary">
                 <IonHeader class="ion-no-border teste">
                     <IonToolbar color="primary">
-                        <div>
+                        <Logo>
                             <img src={picproLogo} alt="teste" />
                             <img src={kenzieLogo} alt="teste" />
-                        </div>
+                        </Logo>
                     </IonToolbar>
                 </IonHeader>
 

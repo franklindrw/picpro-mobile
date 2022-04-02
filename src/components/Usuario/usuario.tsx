@@ -1,5 +1,4 @@
 import { IonAvatar, IonItem, IonLabel } from "@ionic/react";
-import "./usuario.module.scss";
 
 const nome = "franklindrw";
 const presente = require("../../img/presente.png");
