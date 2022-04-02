@@ -1,5 +1,5 @@
 import { IonContent, IonHeader, IonPage, IonToolbar } from "@ionic/react";
-import ExploreContainer from "../components/ExploreContainer";
+
 import Usuario from "../components/Usuario/usuario";
 import { Logo } from "./Page.style";
 
@@ -20,7 +20,6 @@ const Page: React.FC = () => {
                 </IonHeader>
 
                 <Usuario />
-                <ExploreContainer name="Hello world" />
             </IonContent>
         </IonPage>
     );
