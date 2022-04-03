@@ -1,4 +1,11 @@
-import { IonContent, IonHeader, IonPage, IonToolbar } from "@ionic/react";
+import {
+    IonContent,
+    IonHeader,
+    IonFooter,
+    IonPage,
+    IonToolbar,
+} from "@ionic/react";
+import MenuInferior from "../components/Menu-inferior/MenuInferior";
 import Menu from "../components/menu/menu";
 
 import Usuario from "../components/Usuario/usuario";
@@ -10,19 +17,25 @@ const kenzieLogo = require("../img/logo-kenzie.png");
 const Page: React.FC = () => {
     return (
         <IonPage>
-            <IonContent color="primary">
-                <IonHeader class="ion-no-border">
-                    <IonToolbar color="primary">
-                        <Logo>
-                            <img src={picproLogo} alt="teste" />
-                            <img src={kenzieLogo} alt="teste" />
-                        </Logo>
-                    </IonToolbar>
-                </IonHeader>
+            <IonHeader class="ion-no-border">
+                <IonToolbar color="primary">
+                    <Logo>
+                        <img src={picproLogo} alt="teste" />
+                        <img src={kenzieLogo} alt="teste" />
+                    </Logo>
+                </IonToolbar>
+            </IonHeader>
 
+            <IonContent color="primary">
                 <Usuario />
                 <Menu />
             </IonContent>
+
+            <IonFooter>
+                <IonToolbar>
+                    <MenuInferior />
+                </IonToolbar>
+            </IonFooter>
         </IonPage>
     );
 };
