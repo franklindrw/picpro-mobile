@@ -11,7 +11,7 @@ const Page: React.FC = () => {
     return (
         <IonPage>
             <IonContent color="primary">
-                <IonHeader class="ion-no-border teste">
+                <IonHeader class="ion-no-border">
                     <IonToolbar color="primary">
                         <Logo>
                             <img src={picproLogo} alt="teste" />

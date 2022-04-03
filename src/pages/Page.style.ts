@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Logo = styled.h1`
+export const Logo = styled.div`
     display: flex;
     border-bottom: 1px solid #fff;
     margin: 0;

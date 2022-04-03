@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const ContainerUsuario = styled.h1`
+export const ContainerUsuario = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 35px 30px 0;
-    padding-bottom: 20px;
+    margin: 10px 30px 0;
+    padding-bottom: 10px;
     border-bottom: 1px solid #1f6f54;
 `;
 
@@ -35,7 +35,7 @@ export const Botao = styled.h1`
     }
 `;
 
-export const ContainerConta = styled.h1`
+export const ContainerConta = styled.div`
     @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
     display: flex;
