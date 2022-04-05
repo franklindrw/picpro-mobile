@@ -32,9 +32,7 @@ const Page: React.FC = () => {
             </IonContent>
 
             <IonFooter>
-                <IonToolbar>
-                    <MenuInferior />
-                </IonToolbar>
+                <MenuInferior />
             </IonFooter>
         </IonPage>
     );
