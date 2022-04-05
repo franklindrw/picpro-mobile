@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const ContainerBar = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 0 30px;
-    padding-top: 10px;
+    padding: 10px 30px;
     border-top: 1px solid #808289;
 `;
 
@@ -21,7 +20,7 @@ export const ButtonBar = styled.button`
 `;
 
 export const Icone = styled.img`
-    height: 25px;
+    height: 20px;
 `;
 
 export const Titulo = styled.p`

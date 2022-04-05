@@ -9,3 +9,7 @@ export const Icons = {
     bolsaPreto: require("./bolsa.png"),
     bolsaVerde: require("./bolsa-verde.png"),
 };
+
+export const Images = {
+    banner: require("./banner.png"),
+};

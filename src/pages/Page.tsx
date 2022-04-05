@@ -5,9 +5,9 @@ import {
     IonPage,
     IonToolbar,
 } from "@ionic/react";
-import MenuInferior from "../components/Menu-inferior/MenuInferior";
-import Menu from "../components/menu/menu";
 
+import MenuInferior from "../components/Menu-inferior/MenuInferior";
+import Menu from "../components/Main/main";
 import Usuario from "../components/Usuario/usuario";
 import { Logo } from "./Page.style";
 
