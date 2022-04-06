@@ -4,7 +4,7 @@ export const ContainerBar = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    border-top: 1px solid #808289;
+    border-top: 1px solid #c0c0c0;
 `;
 
 export const ButtonBar = styled.button`
@@ -14,8 +14,8 @@ export const ButtonBar = styled.button`
     background-color: #fff;
 
     .pagarIcon {
-        margin-top: -40px;
-        height: 65px;
+        margin-top: -30px;
+        height: 50px;
     }
 `;
 

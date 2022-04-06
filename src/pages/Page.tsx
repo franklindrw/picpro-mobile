@@ -7,9 +7,9 @@ import {
 } from "@ionic/react";
 
 import MenuInferior from "../components/Menu-inferior/MenuInferior";
-import Menu from "../components/Main/main";
 import Usuario from "../components/Usuario/usuario";
 import { Logo } from "./Page.style";
+import Main from "../components/Main/main";
 
 const picproLogo = require("../img/picpro.png");
 const kenzieLogo = require("../img/logo-kenzie.png");
@@ -28,7 +28,7 @@ const Page: React.FC = () => {
 
             <IonContent color="primary">
                 <Usuario />
-                <Menu />
+                <Main />
             </IonContent>
 
             <IonFooter>

@@ -8,8 +8,12 @@ export const Icons = {
     notificacaoVerde: require("./notificacao-verde.png"),
     bolsaPreto: require("./bolsa.png"),
     bolsaVerde: require("./bolsa-verde.png"),
+    envie: require("./pix1.png"),
+    insira: require("./pix2.png"),
 };
 
 export const Images = {
     banner: require("./banner.png"),
+    qrCode: require("./qrcode-imagem.png"),
+    pixLogo: require("./pix-logo.png"),
 };

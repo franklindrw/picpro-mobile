@@ -1,4 +1,6 @@
 import Inicio from "../Cards/Inicio";
+import Pix from "../Cards/Pix";
+import QrCode from "../Cards/QrCode";
 import { MenuBotao, MenuContainer } from "./main.style";
 
 const iconQRCode = require("../../img/qrcode.png");
@@ -6,7 +8,7 @@ const iconPix = require("../../img/pix.png");
 const iconPagar = require("../../img/codigo.png");
 const iconCobrar = require("../../img/cobrar-icon.png");
 
-const Menu: React.FC = () => {
+const Main: React.FC = () => {
     return (
         <>
             <MenuContainer>
@@ -31,9 +33,9 @@ const Menu: React.FC = () => {
                 </MenuBotao>
             </MenuContainer>
 
-            <Inicio />
+            <Pix />
         </>
     );
 };
 
-export default Menu;
+export default Main;
