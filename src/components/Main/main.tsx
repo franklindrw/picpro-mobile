@@ -1,3 +1,4 @@
+import Cobrar from "../Cards/Cobrar";
 import Inicio from "../Cards/Inicio";
 import Pix from "../Cards/Pix";
 import QrCode from "../Cards/QrCode";
@@ -33,7 +34,7 @@ const Main: React.FC = () => {
                 </MenuBotao>
             </MenuContainer>
 
-            <Pix />
+            <Cobrar />
         </>
     );
 };
