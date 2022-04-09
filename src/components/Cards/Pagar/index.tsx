@@ -1,28 +1,21 @@
 import { Icons } from "../../../img/images";
 import {
     Banner,
-    BotaoAmigos,
     Container,
     Title,
     Text,
-    TextBotton,
+    InserirCodigo
 } from "./style";
 
-const Cobrar: React.FC = () => {
+const Pagar: React.FC = () => {
     return (
         <Container>
-            <Banner src={Icons.cobrar} alt="Icone do Pix" />
-            <Title>Cobrar</Title>
-            <Text>Divida a conta com os amigos de forma fácil!</Text>
-            <BotaoAmigos>
-                <img src={Icons.picpay} alt="enviar icon" />
-                <TextBotton>
-                    <h5>Amigos no PicPay</h5>
-                    <p>Divida e acompanhe um gasto com pessoas por aqui</p>
-                </TextBotton>
-            </BotaoAmigos>
+            <Banner src={Icons.boleto} alt="Boleto" />
+            <Title>Pagar com código de Barras</Title>
+            <Text>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira para pagar à vista</Text>
+            <InserirCodigo type="number" placeholder="Insira código de Barras" />
         </Container>
     );
 };
 
-export default Cobrar;
+export default Pagar;

@@ -25,36 +25,10 @@ export const Text = styled.p`
     font-size: 0.9rem;
 `;
 
-export const BotaoAmigos = styled.button`
+export const InserirCodigo = styled.input`
+    background-color: #fdfdfd;
     border: 1px solid #c3c3c3;
-    border-radius: 12px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
+    border-radius: 8px;
+    width: 100%;
     padding: 10px 25px;
-
-    img {
-        width: 16%;
-    }
-`;
-
-export const TextBotton = styled.div`
-    text-align: left;
-    margin-left: 25px;
-    padding: 8px 0;
-
-    h5 {
-        font-size: 0.9rem;
-        font-weight: 700;
-        margin: 2px 0;
-    }
-
-    p {
-        width: 90%;
-        text-align: left;
-        font-size: 0.8rem;
-        margin: 0;
-    }
 `;
