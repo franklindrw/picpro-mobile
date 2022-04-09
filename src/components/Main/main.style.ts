@@ -1,17 +1,22 @@
 import styled from "styled-components";
 
+interface ContainerProps {
+    backgroundColor: string;
+    fontColor: string;
+}
+
 export const MenuContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin: 0 30px;
 `;
 
-export const MenuBotao = styled.button`
+export const MenuBotao = styled.button<ContainerProps>`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    background-color: #1f6f54;
+    background-color: ${(props) => props.backgroundColor};
     padding: 10px;
     border-radius: 10px;
 
@@ -23,7 +28,7 @@ export const MenuBotao = styled.button`
     p {
         @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
-        color: #fff;
+        color: ${(props) => props.fontColor};
         text-align: left;
         width: 50px;
         font-size: 12px;
