@@ -22,11 +22,11 @@
     -   [Ideia do projeto](#ideia-do-projeto)
     -   [Como foi criado](#como-foi-criado)
     -   [Linguagens Usadas](#-construido-com)
-    -   [Projeto Final](#projeto-final)
+    -   [Imagens do Projeto](#imagens-do-projeto)
 -   [Instalação](#-instalação)
     -   [Requisitos](#requisitos)
-    -   [Instalar a aplicação Web](#instalar-a-aplicação-web)
--   [Como usar](%EF%B8%8F-como-usar)
+    -   [Instalar a aplicação](#instalar-aplica%C3%A7%C3%A3o)
+-   [Como usar](#%EF%B8%8F-como-usar)
 -   [Autor](#-autor)
 -   [Licença](#-licença)
 
@@ -34,23 +34,31 @@
 
 ## 🔎 Sobre o Projeto
 
-### Ideia do projeto
+### Ideia do Projeto
 
-Aplicação feita com base no curso Picpro 2022. A idéia proposta nas aulas era recriar a interface do aplicativo do PicPay em HTML,CSS e JS. Então ultilizei a ideia para evoluir o projeto e recriar o PicPay usando o Ionic e React.
+Aplicação feita com base no curso Picpro 2022. A idéia proposta nas aulas era recriar a interface do aplicativo do PicPay em HTML,CSS e JS. Então utilizei a ideia para evoluir o projeto e recria-lo usando o Ionic e React.
 
 ### Como foi criado
 
-Com Ionic é possível criar aplicativos Híbridos que com o mesmo código atendam IOS e Android, e com o framework React foi possível componentizar e renderizar sem precisar recarregar o aplicativo.
+Com Ionic é possível criar aplicativos Híbridos que, com o mesmo código atenda smartphones IOS e Android, e com o framework React foi possível componentizar e renderizar de forma simples.
 
 Foi usado Styled-Components para criar e gerenciar toda as estilizações dos componentes, ele é uma biblioteca que cria classes quando renderizado. Assim não é preciso se preocupar com os nomes das classes quando é feito a estilização dos componentes, já que ele faz o gerenciamento de classes impedindo de um css sobrescreva css de outros componentes.
 
-Nesse projeto foi usado também o Hook useStade que permite adicionar o state do React a um componente de função. Então quando o card é clicado o use State é chamado e alterado para chamar o componente correspondente. E para mudar o botão quando acionado para branco é usado o props para enviar a informação para o arquivo de estilização e mudar para a cor de "ativo".
+Nesse projeto foi usado também o Hook useStade que permite adicionar o state do React a um componente de função. Então quando o card é clicado o use State é chamado e alterado para chamar o componente correspondente. E para mudar o botão quando acionado para branco é usado o props para enviar a informação para o arquivo de estilização e mudar para a cor para "ativo".
 
-### Projeto Final
+### Imagens do Projeto
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/81038899/162595001-801ec786-81a2-45c8-aa09-2ca2ec4bf3fe.gif" />
+  <img style="width: 347px" src="https://user-images.githubusercontent.com/81038899/162595006-9877a38c-496e-496e-8b70-ce0c0399a86c.png" />
+  <img style="width: 347px" src="https://user-images.githubusercontent.com/81038899/162595008-a5fdfd2e-3ff3-4af9-8aeb-40d1280b670f.png" />
+  <img style="width: 347px" src="https://user-images.githubusercontent.com/81038899/162595011-c816c031-cb2e-4b6f-b3ae-4cfdf2d4186f.png" />
+  <img style="width: 347px" src="https://user-images.githubusercontent.com/81038899/162595014-7f5ad7c7-22f7-42d7-8cc2-7ef2038d99cb.png" />
+  <img style="width: 347px" src="https://user-images.githubusercontent.com/81038899/162595015-3a0e7283-ee31-4865-9d5c-2ea032502427.png" />
+</div>
 
 <br /><br />
 
-## 🔨 Construindo com
+## 🔨 Construido com
 
 <div id="statusProject" align="left">
     <img src="https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white" />
