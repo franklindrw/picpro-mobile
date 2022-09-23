@@ -1,4 +1,4 @@
-![capa](https://user-images.githubusercontent.com/81038899/160187381-d786345e-6526-447e-b16b-f239fd7ea93a.png)
+![capa](https://user-images.githubusercontent.com/81038899/160187381-d786345e-6526-447e-b16b-f239fd7ea93a.png#vitrinedev)
 
 <br /><br />
 
@@ -29,6 +29,15 @@
 -   [Como usar](#%EF%B8%8F-como-usar)
 -   [Autor](#-autor)
 -   [Licença](#-licença)
+
+<br /><br />
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | Picpro mobile 2022
+| :label: Tecnologias | Ionic, Typescript, StyledComponents, React
+| :rocket: URL         | 
+| :fire: Desafio     | Recriar o app Picpay
 
 <br /><br />
 
