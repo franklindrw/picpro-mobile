@@ -32,7 +32,7 @@
 
 <br /><br />
 
-| :placard: Vitrine.Dev |     |
+| :placard: Vitrine.Dev | https://cursos.alura.com.br/vitrinedev/franklindrw |
 | -------------  | --- |
 | :sparkles: Nome        | Picpro mobile 2022
 | :label: Tecnologias | Ionic, Typescript, StyledComponents, React
